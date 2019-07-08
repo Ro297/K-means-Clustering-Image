@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
 import cv2
 
-img = 'NL.jpg'
+img = 'Images/NL.jpg'
 image = cv2.imread(img)
 img = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
 

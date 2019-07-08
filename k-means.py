@@ -4,7 +4,7 @@ import cv2
 import numpy as np
 from utils import *
 
-img = 'NL.jpg'
+img = 'Images/NL.jpg'
 clusters = 6
 
 # load the image and convert it from BGR to RGB so that
